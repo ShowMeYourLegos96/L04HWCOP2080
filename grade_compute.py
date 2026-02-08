@@ -10,7 +10,7 @@ def GradeToNumber(x):
     elif x == 'B':
         x = 3
     elif x == 'B-':
-        x = 2.7
+        x = 2.7 
     elif x == 'C+':
         x = 2.3
     elif x == 'C':
@@ -26,4 +26,28 @@ def GradeToNumber(x):
     return x
         
 def NumberToGrade(c):
-    
+    if x == 4:
+        x = 'A+'
+    elif x == 4:
+        x = 'A'
+    elif x == 3.7:
+        x = 'A-'
+    elif x == '3.3':
+        x = 'B+'
+    elif x == 3:
+        x = 'B'
+    elif x == 2.7:
+        x = 'B-'
+    elif x == 2.3:
+        x = 'C+'
+    elif x == 2:
+        x = 'C'
+    elif x == 1.7:
+        x = 'C-'
+    elif x == 1.3:
+        x = 'D+'
+    elif x == 1:
+        x = 'D'
+    elif x == 0:
+        x = 'F'
+    return x

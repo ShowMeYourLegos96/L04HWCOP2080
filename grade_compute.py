@@ -2,7 +2,7 @@ def GradeToNumber(x):
     if x == 'A+':
         x = 4
     elif x == 'A':
-        x = 4
+        x = 3.8
     elif x == 'A-':
         x = 3.7
     elif x == 'B+':
@@ -30,7 +30,7 @@ def NumberToGrade(x):
         x = 'A+'
     elif x < 4 and x > 3.7:
         x = 'A'
-    elif x <= 3.7 and x >3.3 :
+    elif x <= 3.7 and x > 3.3:
         x = 'A-'
     elif x <= 3.3 and x > 3:
         x = 'B+'

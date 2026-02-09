@@ -29,7 +29,8 @@ while x1.upper() != "Q":
     num_Low = min(y1,y2,y3,y4)
 
     my_avg =  (y1 + y2 + y3 + y4 - num_Low) / 3
-    if NumberToGrade(my_avg) == 'B-' or 'C+' or 'C' or 'C-' or 'D+' or 'D' or 'D-' or 'F':
+    new_avg = 0
+    if NumberToGrade(my_avg) == 'B-' or 'C+' or 'C' or 'C-' or 'D+' or 'D' or 'F':
         new_avg = my_avg + 0.25
     else:
         new_avg = my_avg
@@ -37,8 +38,9 @@ while x1.upper() != "Q":
     d = input("Do you want to continue?: ")
     if d.upper() == "Q":
         break
-    
+
+ 
 print("Grades entered: ", [x1,x2,x3,x4])
 print("Lowest Grade dropped: ", NumberToGrade(num_Low))
 print("Calculated Average: ", my_avg)
-print("Final Letter Grade: ",NumberToGrade(new_avg))
+print("Final Letter Grade: ",NumberToGrade(my_avg))

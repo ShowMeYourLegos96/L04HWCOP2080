@@ -38,7 +38,7 @@ while x1.upper() != "Q":
     if d.upper() == "Q":
         break
     
-print("Grades entered: ", list[x1,x2,x3,x4])
+print("Grades entered: ", [x1,x2,x3,x4])
 print("Lowest Grade dropped: ", NumberToGrade(num_Low))
 print("Calculated Average: ", my_avg)
 print("Final Letter Grade: ",NumberToGrade(new_avg))

@@ -25,7 +25,7 @@ def GradeToNumber(x):
         x = 0
     return x
         
-def NumberToGrade(c):
+def NumberToGrade(x):
     if x == 4:
         x = 'A+'
     elif x == 4:
